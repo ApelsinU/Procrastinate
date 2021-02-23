@@ -1,0 +1,74 @@
+body, h1, h2, h3, h4, p, a{
+	margin: 0;
+	font-size: 100%;
+    font-weight: normal;
+}
+
+body{
+	background-color: rgb(49,49,49);
+	display: block;
+}
+
+.header{
+	width: 500px;
+	height: 15vh;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.text{
+	color: white;
+	font-family: "Verdana", sans-serif;
+}
+
+.header-title{
+	font-size: 27px;
+	display: inline-block;
+	font-weight: bold;
+	padding-top: 4vh;
+}
+
+.button{
+	display: inline-block;
+	font-size: 17px;
+	border: 1px solid white;
+	padding: 10px 25px;
+	/*color: rgb(49,49,49);*/
+}
+
+.button:hover{
+	color: gray;
+	border: 1px solid gray;
+	cursor: pointer;
+}
+
+.section{
+	width: 500px;
+    height: 60vh;
+	margin: auto;
+}
+
+.image{
+	width: 500px;
+	height: 300px;
+	margin-bottom: 20px;
+}
+
+.advice{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.cursor{
+	width: 15px;
+	height: 35px;
+}
+
+.footer{
+	width: 500px;
+	height: 50px;
+	margin: 150px auto 0px;
+	font-size: 17px;
+}
